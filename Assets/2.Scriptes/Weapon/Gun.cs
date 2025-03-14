@@ -54,7 +54,6 @@ public class Gun : Weapon
     // 그냥 갖고 있는 총알 중에 
     public override void Attack(BaseObject _baseObject)
     {
-        Debug.LogError("789"); 
         base.Attack(_baseObject);
         Shoot(_baseObject.transform.position);
     }
